@@ -17,3 +17,7 @@ while True:
     neo[0] = (0, 0, 255)
     time.sleep(0.2)
     neo.write()
+
+    neo[0] = (255, 0, 255)
+    time.sleep(0.2)
+    neo.write()
